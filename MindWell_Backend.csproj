@@ -11,4 +11,56 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Authentication\Controllers\" />
+      <Folder Include="Authentication\Domain\Models\" />
+      <Folder Include="Authentication\Domain\Repositories\" />
+      <Folder Include="Authentication\Domain\Services\Communication\" />
+      <Folder Include="Authentication\Mapping\" />
+      <Folder Include="Authentication\Persistence\" />
+      <Folder Include="Authentication\Resources\" />
+      <Folder Include="Authentication\Services\" />
+      <Folder Include="EducativeResources\Controllers\" />
+      <Folder Include="EducativeResources\Domain\Models\" />
+      <Folder Include="EducativeResources\Domain\Repositories\" />
+      <Folder Include="EducativeResources\Domain\Services\Communication\" />
+      <Folder Include="EducativeResources\Mapping\" />
+      <Folder Include="EducativeResources\Persistence\" />
+      <Folder Include="EducativeResources\Resources\" />
+      <Folder Include="EducativeResources\Services\" />
+      <Folder Include="Evaluations\Controllers\" />
+      <Folder Include="Evaluations\Mapping\" />
+      <Folder Include="Evaluations\Persistence\" />
+      <Folder Include="Evaluations\Resources\" />
+      <Folder Include="Evaluations\Services\" />
+      <Folder Include="Notifications\Controllers\" />
+      <Folder Include="Notifications\Domain\Models\" />
+      <Folder Include="Notifications\Domain\Repositories\" />
+      <Folder Include="Notifications\Domain\Services\Communication\" />
+      <Folder Include="Notifications\Mapping\" />
+      <Folder Include="Notifications\Persistence\" />
+      <Folder Include="Notifications\Resources\" />
+      <Folder Include="Notifications\Services\" />
+      <Folder Include="PersonalLog\Controllers\" />
+      <Folder Include="PersonalLog\Domain\Models\" />
+      <Folder Include="PersonalLog\Domain\Repositories\" />
+      <Folder Include="PersonalLog\Domain\Services\Communication\" />
+      <Folder Include="PersonalLog\Mapping\" />
+      <Folder Include="PersonalLog\Persistence\" />
+      <Folder Include="PersonalLog\Resources\" />
+      <Folder Include="PersonalLog\Services\" />
+      <Folder Include="Shared\Domain\Services\Communication\" />
+      <Folder Include="Shared\Extensions\" />
+      <Folder Include="Shared\Persistence\Contexts\" />
+      <Folder Include="Shared\Persistence\Repositories\" />
+      <Folder Include="Validation\Controllers\" />
+      <Folder Include="Validation\Domain\Models\" />
+      <Folder Include="Validation\Domain\Repositories\" />
+      <Folder Include="Validation\Domain\Services\Communication\" />
+      <Folder Include="Validation\Mapping\" />
+      <Folder Include="Validation\Persistence\" />
+      <Folder Include="Validation\Resources\" />
+      <Folder Include="Validation\Services\" />
+    </ItemGroup>
+
 </Project>
